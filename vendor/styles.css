@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body,html{
+    height:100%;
+    width:100%;
+}
+.container{
+    height:10vw;
+    width:auto;
+    display:flex;
+    gap:30px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+}
+
+.navbar-left {
+    font-size: 18px;
+}
+
+.navbar-right a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar-right a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.left-side, .right-side {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.left-side h2, .right-side h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button, .edit-button {
+    padding: 8px 16px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover, .edit-button:hover {
+    background: #0056b3;
+}
+
+.delete-button {
+    background: #dc3545;
+}
+
+.delete-button:hover {
+    background: #c82333;
+}
+
+.product-info {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.actions {
+    margin-top: 15px;
+}
+
+.actions a, .actions button {
+    margin-right: 10px;
+}
